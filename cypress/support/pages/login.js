@@ -3,9 +3,9 @@ export class loginES {
   loginform(user, pass) {
    // cy.contains('Manager').click()
     cy.get('#username')
-      .type('admin')
+      .type('*****')
       .get('#password')
-      .type('F7AviERi')
+      .type('*****')
 
     cy.contains('Login').click()
     cy.wait(1000)
